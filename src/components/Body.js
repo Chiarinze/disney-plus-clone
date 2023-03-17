@@ -7,6 +7,7 @@ function Body() {
   return (
     <Container>
       <ImgSlider />
+      <Viewers />
     </Container>
   )
 }
