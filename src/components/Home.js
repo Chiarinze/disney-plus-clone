@@ -2,17 +2,19 @@ import React from 'react'
 import styled from 'styled-components'
 import ImgSlider from './ImgSlider'
 import Viewers from './Viewers'
+import Movies from './Movies'
 
-function Body() {
+function Home() {
   return (
     <Container>
       <ImgSlider />
       <Viewers />
+      <Movies />
     </Container>
   )
 }
 
-export default Body
+export default Home
 
 const Container = styled.main`
   min-height: calc(100vh - 70px);
