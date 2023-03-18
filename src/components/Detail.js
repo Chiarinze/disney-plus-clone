@@ -28,7 +28,7 @@ function Detail() {
       </Controls>
       <SubTitle>Coming soon!</SubTitle>
       <Description>
-        Still Coming Soon!
+        Still Coming Soon izfuszvsz vgz vzf vizfvzf zvzf zb z u zzf vuzv zfvzruezbfs czfuv efv zf uzr zs g f f esre shr fer sgeh res!
       </Description>
     </Container>
   )
@@ -63,6 +63,7 @@ const ImageTitle = styled.div`
   width: 35vw;
   min-height: 170px;
   min-width: 200px;
+  margin-top: 60px;
 
   img {
     width: 100%;
@@ -134,4 +135,5 @@ const Description = styled.div`
   color: rgb(249, 249, 249);
   font-size: 20px;
   margin-top: 16px;
+  max-width: 760px;
 `
