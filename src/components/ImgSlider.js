@@ -22,6 +22,12 @@ function ImgSlider() {
       <Wrap>
         <img src="/images/slider-badag.jpg" />
       </Wrap>
+      <Wrap>
+        <img src="/images/slider-scale.jpg" />
+      </Wrap>
+      <Wrap>
+        <img src="/images/slider-scales.jpg" />
+      </Wrap>
     </Carousel>
   );
 }
@@ -46,8 +52,14 @@ const Carousel = styled(Slider)`
     overflow: visible;
   }
 
-  button {
+  & > button {
     z-index: 1;
+    opacity: 0;
+
+    &:hover {
+      opacity: 1;
+      transition: opacity 0.2s ease 0s;
+    }
   }
 `;
 
